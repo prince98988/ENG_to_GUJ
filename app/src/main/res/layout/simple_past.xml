@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/simple_past"
+
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/green"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/head">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:paddingLeft="16dp"
+                        android:paddingTop="16dp"
+                        android:layout_width="match_parent"
+                        android:textSize="35dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="SIMPLE PAST TENSE"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:paddingLeft="16dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:gravity="top"
+                        android:layout_weight="1"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:text="(સાદો ભૂતકાળ)"
+                        android:paddingBottom="6dp"
+                        >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/pa1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/play"
+                />
+
+
+        </RelativeLayout>
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ઉપયોગ [USE-યુઝ]"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/orange"
+
+                ></TextView>
+            <TextView
+                android:layout_marginTop="0dp"
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ► ભૂતકાળમાં અમુક સમયે થયેલી ક્રિયા દર્શાવવા  સાદો ભૂતકાળ વપરાય છે"
+                android:textSize="22dp"
+                android:background="@color/orange"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="22dp"
+                android:background="@color/orange"
+                android:textColor="@color/white"
+
+                />
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="વાક્યરચના [Syntax]"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="@color/present2"
+
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀  કર્ત્તા + ક્રિયાપદ નું ભૂતકાળ નું રૂપ (ed પ્રત્યય)+'S' વાળું રૂપ + કર્મ + અન્ય શબ્દો"
+                android:textSize="25dp"
+                android:background="@color/present2"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingBottom="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀  Subject + past form of Verb + Object +Other"
+                android:textSize="25dp"
+                android:background="@color/present2"
+                android:textColor="@color/white"
+                />
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ઉદાહરણો [EXAMPLES]"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/present21"
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡  I       played                     cricket \n    (મેં)     (રમી હતી)                   (ક્રિકેટ) \n    (કર્ત્તા)  (ક્રિયાપદ નું ભૂતકાળ નું રૂપ)  (કર્મ )"
+                android:textSize="22dp"
+                android:background="@color/present21"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="➡ He helped his friend. \n તેણે તેના મિત્રને મદદ કરી હતી. "
+                android:textSize="22dp"
+                android:background="@color/present21"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡ She cooked good food."
+                android:textSize="22dp"
+                android:background="@color/present21"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡ I saw a movie yesterday."
+                android:textSize="22dp"
+                android:background="@color/present21"
+                android:textColor="@color/white"
+                android:paddingBottom="6dp"
+                />
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="નકારવાક્યરચના [Denial Syntax]"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="@color/present3"
+
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀  કર્ત્તા +did + not + ક્રિયાપદ નું મૂળ રૂપ  + કર્મ + અન્ય શબ્દો"
+                android:textSize="25dp"
+                android:background="@color/present3"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingBottom="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀  Subject + did + not +Verb + Object +Other"
+                android:textSize="25dp"
+                android:background="@color/present3"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ઉદાહરણો [EXAMPLES]"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="#29B651"
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡  I     did     not     play                      cricket \n    (મેંં)           (નથી)   (રમી)                   (ક્રિકેટ) \n    (કર્ત્તા) (did) (not) (ક્રિયાપદ નું મૂળ રૂપ)  (કર્મ )"
+                android:textSize="22dp"
+                android:background="#29B651"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡ I did not eat an apple"
+                android:textSize="22dp"
+                android:background="#29B651"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"
+                />
+
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="પ્રશ્ન વાક્યરચના [Question Syntax]"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="@color/present4"
+
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀  What/Where/.. + did + કર્ત્તા + કર્મ ?"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:background="@color/present4"
+                />
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀 What/Where/..+ did + Subject+ Object ?"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:background="@color/present4"
+                />
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ઉદાહરણો [EXAMPLES]"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="#29B651"
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡  What   did   I           play ?     \n     (શું)              (હું)      (રમ્યો હતો ?)               \n   (what)  (did)   (કર્ત્તા)    (કર્મ )"
+                android:textSize="22dp"
+                android:background="#29B651"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡ Who played cricket ?"
+                android:textSize="22dp"
+                android:background="#29B651"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡ Did you build a new house last year ?"
+                android:textSize="22dp"
+                android:background="#29B651"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"
+
+                />
+
+
+
+    </LinearLayout>
+</ScrollView>

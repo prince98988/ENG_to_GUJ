@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+
+
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/abcd"
+        android:background="@color/present"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+
+                android:layout_width="140dp"
+                android:layout_height="180dp"
+                android:src="@drawable/abcd_main"
+
+                />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:text="A,B,C,D..."
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <View
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="160dp"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+                <TextView
+                    android:paddingLeft="16dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:text="એ,બી,સી,ડી.."
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/A1"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/number"
+        android:background="@color/red"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           >
+            <ImageView
+
+                android:layout_width="140dp"
+                android:layout_height="180dp"
+                android:src="@drawable/numbers_main"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/text_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:text="NUMBERS"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <View
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="160dp"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+                <TextView
+                    android:paddingLeft="16dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:text="સંખ્યાઓ"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/N1"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/family"
+        android:background="@color/yellow1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="140dp"
+                android:layout_height="180dp"
+                android:src="@drawable/family_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:text="FAMILY MEMBERS"
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <View
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="160dp"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="37dp"
+                    android:text="પરિવારના સદસ્યો"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/F1"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/color"
+        android:background="@color/green1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="140dp"
+                android:layout_height="180dp"
+                android:src="@drawable/color_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="COLORS"
+                    >
+                </TextView>
+                <View
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="160dp"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:text="રંગો"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/C1"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/general"
+
+        android:background="@color/blue"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+
+                android:layout_width="140dp"
+                android:layout_height="180dp"
+                android:src="@drawable/routine_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:gravity="bottom"
+                    android:text="ROUTINE WORDS"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <View
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="160dp"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:text="રોજિંદા શબ્દો"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/R1"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/tens"
+        android:background="@color/orange"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+
+                android:layout_width="140dp"
+                android:layout_height="180dp"
+                android:src="@drawable/tense_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:gravity="bottom"
+                    android:text="ENGLISH TENSES"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <View
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="160dp"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="35dp"
+                    android:text="અંગ્રેજી કાળ"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/T1"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NUMBERS QUIZ \n સંખ્યાની ક્વિઝ"
+            android:textSize="35dp"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/green1"
+            android:text="અંગ્રેજી અંક માં ફેરવો :-"
+            android:layout_marginBottom="10dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="#B15611"
+            android:text="Nine million ninety two:-"
+
+            ></TextView>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/yellow1"
+            >
+            <RadioButton android:id="@+id/q11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="900092-૯ooo૯૨"
+
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/q12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="900920-૯ooo૯૨o"
+
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/q13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90920-૯o૯૨o"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+            <RadioButton android:id="@+id/q14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9000092-૯oooo૯૨"
+
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            android:text="અંગ્રેજી શબ્દોમાં જાતે લખો:-"
+            ></TextView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="#B15611"
+            android:text=" 120987 (૧૨o૯૮૭):-"
+            ></TextView>
+        <EditText
+            android:id="@+id/q2"
+            android:hint="Enter Answer"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="#B15611"
+            android:text="5000990 (૫ooo૯૯o):-"
+            ></TextView>
+        <EditText
+            android:id="@+id/q3"
+            android:hint="Enter Answer"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            android:text="અંગ્રેજી અંકોમાં જાતે લખો:-"
+            ></TextView>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="#B15611"
+            android:text="Ten billion twelve million nine thousand twenty two:-"
+            ></TextView>
+
+        <EditText
+            android:hint="Enter Answer"
+            android:textColorHint="@color/white"
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="#B15611"
+            android:text="One lakh twenty three thousand six hundred forty five:-"
+            ></TextView>
+
+        <EditText
+            android:hint="Enter Answer"
+            android:textColorHint="@color/white"
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="GET YOUR SCORE \n (તમારો સ્કોર મેળવો)"
+            android:onClick="answer1"
+            ></Button>
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:text=""
+            ></TextView>
+
+    </LinearLayout></ScrollView>

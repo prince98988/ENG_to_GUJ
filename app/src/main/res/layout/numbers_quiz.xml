@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUMBERS QUIZ \n સંખ્યાની ક્વિઝ"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/green1"
+        android:text="અંગ્રેજી શબ્દોમાં રૂપાંતરિત કરો :-"
+        android:layout_marginBottom="10dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="#B15611"
+        android:text="79 (૭૯):-"
+
+        ></TextView>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/yellow1"
+        >
+        <RadioButton android:id="@+id/q11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="seventeen nineteen"
+
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="seventeen nine"
+
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="seventy nine"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="seventy nineteen"
+
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="#B15611"
+        android:text="12987 (૧૨૯૮૭):-"
+        ></TextView>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/yellow1"
+        >
+        <RadioButton android:id="@+id/q21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Twelve thousand nine hundred eighty seven"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Twelve thousand ninety eighty seven"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One two thousand nine hundred eight seven"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Twelve thousand ninety eight seven"
+
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="#B15611"
+        android:text="5000090 (૫oooo૯o):-"
+        ></TextView>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/yellow1"
+        >
+        <RadioButton android:id="@+id/q31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fifty hundred ninety"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Five million ninety"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Five lakh ninety"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fifty million ninety"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:text="અંગ્રેજી અંક માં ફેરવો :-"
+        ></TextView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="#B15611"
+        android:text="Ten billion nine thousand twenty two:-"
+        ></TextView>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/yellow1"
+        >
+        <RadioButton android:id="@+id/q41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10000009022-૧oooooo૯o૨૨"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000009022-૧ooooo૯o૨૨"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000000922-૧oooooo૯૨૨"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10000090202-૧ooooo૯o૨o૨"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="#B15611"
+        android:text="One lakh twenty three thousand forty five:-"
+        ></TextView>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/yellow1"
+        >
+        <RadioButton android:id="@+id/q51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12345-૧૨૩૪૫"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1230045-૧૨૩oo૪૫"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123450-૧૨૩૪૫o"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+        <RadioButton android:id="@+id/q54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123045-૧૨૩o૪૫"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+<Button
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:text="GET YOUR SCORE \n (તમારો સ્કોર મેળવો)"
+    android:onClick="answer"
+    android:background="#BFF4E3"
+    ></Button>
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:text=""
+        ></TextView>
+
+</LinearLayout></ScrollView>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/per_past"
+
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/green"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/head">
+
+
+                <LinearLayout
+                    android:id="@+id/text_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:paddingLeft="16dp"
+                        android:paddingTop="16dp"
+                        android:layout_width="match_parent"
+                        android:textSize="35dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="PERFECT FUTURE TENSE"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:paddingLeft="16dp"
+
+                        android:id="@+id/guj_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:gravity="top"
+                        android:layout_weight="1"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:text="(પૂર્ણ ભવિષ્ય કાળ)"
+                        android:paddingBottom="6dp"
+                        >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/fu1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/play"
+                />
+
+
+        </RelativeLayout>
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ઉપયોગ [USE-યુઝ]"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/orange"
+
+                ></TextView>
+            <TextView
+                android:layout_marginTop="0dp"
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ► ભવિષ્ય માં અમુકસમયે ક્રિયા પૂર્ણ થઇ ગઈ હશે એવું  દર્શવવા માટે પૂર્ણ ભવિષ્ય કાળ વપરાય છેે"
+                android:textSize="22dp"
+                android:background="@color/orange"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="22dp"
+                android:background="@color/orange"
+                android:textColor="@color/white"
+
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="વાક્યરચના [Syntax]"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="@color/present2"
+
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀  કર્ત્તા + will + have + ભૃતકૃદંત + કર્મ + અન્ય શબ્દો"
+                android:textSize="25dp"
+                android:background="@color/present2"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingBottom="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀  Subject + will + have +  Adolescent  + Object + Other"
+                android:textSize="25dp"
+                android:background="@color/present2"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ઉદાહરણો [EXAMPLES]"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@color/present21"
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡  I will have reached home.  \n      ( હું ઘરે પહોંચી ગયો હોઈશ.)  "
+                android:textSize="22dp"
+                android:background="@color/present21"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡ she will have finished his work . \n     ( તેણીએ તેનું કામ પૂરું કરી દીધું હશે.) "
+                android:textSize="22dp"
+                android:background="@color/present21"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="22dp"
+                android:background="@color/present21"
+                android:textColor="@color/white"
+                android:paddingBottom="6dp"
+                />
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="નકારવાક્યરચના [Denial Syntax]"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="@color/present3"
+
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀  કર્ત્તા + will/shall + not + have + ભૃતકૃદંત  + કર્મ + અન્ય શબ્દો"
+                android:textSize="25dp"
+                android:background="@color/present3"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingBottom="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀  Subject + have/has + not + Adolescent+  + Object +Other"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:background="@color/present3"
+                />
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ઉદાહરણો [EXAMPLES]"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="#29B651"
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡  I     will  not  have   played    cricket \n    (હું)          (નહીં)        (રમ્યો હોત)      (ક્રિકેટ) \n   (કર્ત્તા) (will) (not) (have)(ભૃતકૃદંત)(કર્મ)"
+                android:textSize="22dp"
+                android:background="#29B651"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡ You will not have walked."
+                android:textSize="22dp"
+                android:background="#29B651"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="પ્રશ્ન વાક્યરચના [Question Syntax]"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:background="@color/present4"
+
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 🔀 will/shall ને કર્ત્તા ની આગળ મુકવાથી અને have ને પાછળ મુકવાથી પ્રશ્નાર્થ વાક્ય બને."
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:background="@color/present4"
+                />
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25dp"
+                android:background="@color/present4"
+                android:textColor="@color/white"
+                />
+
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ઉદાહરણો [EXAMPLES]"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="#29B651"
+                ></TextView>
+            <TextView
+                android:paddingTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡  What   shall   I  have         played ?     \n     (શું)          (હું)      (રમ્યો હોત્ત?)               \n   (what)   (shall)   (કર્ત્તા) (have)   (કર્મ )"
+                android:textSize="22dp"
+                android:background="#29B651"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ➡ Will the postman have given the letter to Ashok before Richa come?"
+                android:textSize="22dp"
+                android:background="#29B651"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"
+                />
+
+
+        </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/present_s"
+        android:background="@color/green"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:src="@drawable/tense_main"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/text_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:text="SIMPLE PRESENT TENS"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <TextView
+                    android:paddingLeft="16dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="સાદો વર્તમાન કાળ"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/present_c"
+        android:background="@color/red"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:src="@drawable/tense_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="CONTINUOUS PRESENT TENSE"
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="ચાલુ વર્તમાન કાળ"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/present_p"
+        android:background="@color/blue"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:src="@drawable/tense_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="PERFECT PRESENT TENSE"
+                    >
+                </TextView>
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="પૂર્ણ વર્તમાન કાળ"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/present_p_c"
+
+        android:background="@color/yellow"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:src="@drawable/tense_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:gravity="bottom"
+                    android:text="CONTINUOUS PERFECT PRESENT TENSE"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="20dp"
+                    android:text="ચાલુ પૂર્ણ વર્તમાન કાળ"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

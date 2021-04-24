@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/normal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/green1"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/head">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:textAlignment="center"
+                        android:paddingTop="16dp"
+                        android:layout_width="match_parent"
+                        android:textSize="35dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="INTRODUCTION"
+                        android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:textAlignment="center"
+                        android:id="@+id/guj_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:gravity="top"
+                        android:layout_weight="1"
+                        android:textSize="35dp"
+                        android:textColor="@color/white"
+                        android:text="(પરિચય)"
+                        android:paddingBottom="6dp"
+                        >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USES \nઉપયોગો"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:background="#031F4A"
+            android:layout_marginTop="10dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ➸ કાળ એ સમય સાથે થતી ક્રિયા દર્શાવવા વપરાય છે \n ➸  ક્રિયાપદો ત્રણ સમયગાળામાં આવે છે: ભૂતકાળ, વર્તમાન અને ભવિષ્ય. \n ➸ ભૂતકાળનો ઉપયોગ પહેલાથી બનેલી વસ્તુઓનું વર્ણન કરવા માટે થાય છે (દા.ત. દિવસની શરૂઆતમાં, ગઈકાલે, ગયા અઠવાડિયામાં, ત્રણ વર્ષ પહેલાં). \n ➸ હાલના સમયગાળાનો ઉપયોગ હમણાં થઈ રહેલી વસ્તુઓ અથવા સતત ચાલુ રહેલી વસ્તુઓનું વર્ણન કરવા માટે થાય છે. \n ➸ ભાવિ તણાવ એવી બાબતોનું વર્ણન કરે છે જે હજી બાકી છે (દા.ત., પાછળથી, આવતીકાલે, આવતા અઠવાડિયે, આવતા વર્ષે, હવેથી ત્રણ વર્ષ)."
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:paddingBottom="10dp"
+
+            ></TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

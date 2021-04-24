@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/r11"
+        android:background="@color/green"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="180dp"
+                android:src="@drawable/routine_main"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/text_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:text="Daily Activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <TextView
+                    android:paddingLeft="16dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:text="દૈનિક પ્રવૃત્તિ"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/r1"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/r22"
+
+        android:background="@color/red"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="180dp"
+                android:src="@drawable/routine_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:text="Days Of Week "
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:text="અઠવાડિયાના દિવસો "
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/r2"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/r33"
+
+        android:background="@color/blue"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="180dp"
+                android:src="@drawable/routine_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:gravity="bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Parts Of The Body"
+                    >
+                </TextView>
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:text="શરીરના ભાગો"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/r3"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/r44"
+
+        android:background="@color/yellow"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="180dp"
+                android:src="@drawable/routine_main"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:gravity="bottom"
+                    android:text="Vegetables"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="top"
+                    android:layout_weight="1"
+                    android:textSize="30dp"
+                    android:text="શાકભાજી"
+                    android:textColor="@color/white"
+                    >
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/r4"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/play" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

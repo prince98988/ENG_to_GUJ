@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GUJ_to_ENG</string>
+    <string name="category_number" translatable="false" />
+    <string name="numbers" translatable="false">Numbers</string>
+    <string name="colors" translatable="false">Colors</string>
+    <string name="family" translatable="false">Family Members</string>
+    <string name="general" translatable="false">General Words</string>
+    <string name="ek" translatable="false">ek</string>
+
+    <string name="t1">PRESENT TENSE</string>
+    <string name="t2">PAST TENSE</string>
+    <string name="t3">FUTURE TENSE</string>
+    <string name="t0">INTRO.</string>
+
+
+</resources>

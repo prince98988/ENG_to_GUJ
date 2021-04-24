@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEARN ALL NUMBERS\nબધી સંખ્યાઓ શીખો"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:textColor="@color/white"
+        android:background="@color/red"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="21-99 ( ૨૧-૯૯ )"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:background="#031F4A"
+        android:layout_marginTop="10dp"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  ➦ છેલો અંક જો શુન્ય ન હોય અને છેલ્લા  બે અંક દસ થી ઓગણીસ વચ્ચે ના હોય તો તેને છૂટો કરો અને પછી ઇંગલિશ માં ફેરવો."
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:paddingBottom="10dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  EXAMPLE :- \n\n   21 :- 20     +     1  \n  ૨૧ :- ૨o      +    ૧ \n         (twenty)    (one) \n 21= (Twenty One) =(એકવીસ)"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="101-999 ( ૧o૧-૯૯૯ )"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:background="#6E230B"
+        android:layout_marginTop="10dp"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  ➦ છેલો અંક જો શુન્ય ન હોય અને છેલ્લા  બે અંક દસ થી ઓગણીસ વચ્ચે ના હોય તો તેને છૂટો  કરો, દશકનો જો શુન્ય ન  હોય  અને છેલ્લા બે અંક દસ થી  ઓગણીસ વચ્ચે ના હોય તો તેને પણ છૂટો  અને પછી ઇંગલિશ માં ફેરવો."
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" \n EXAMPLE 1:- \n\n   101 :- 100          +      1  \n  ૨૧ :-  ૧oo           +      ૧ \n           (one hundred)   (one) \n 101= (One Hundred One) =(એકસો એક)"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" \n EXAMPLE 2:- \n\n   359 :- 300          +  50    +   9  \n  ૨૧ :-  ૩oo           + ૫o    +    ૯ \n    (Three Hundred)(fifty) (nine) \n 101= (Three Hundred fifty nine)\n                      = (ત્રણસો  ઓગણસાઈંઠ)"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1001-99999 ( ૧oo૧-૯૯૯૯ )"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:background="#0D3A08"
+        android:layout_marginTop="10dp"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  ➦ છેલો અંક જો શુન્ય ન હોય અને છેલ્લા  બે અંક દાસ થી ઓગણીસ વચ્ચે ના હોય  તો તેને છૂટો  કરો, દશકનો જો શુન્ય ન  હોય અને છેલ્લા બે અંક દસ થી ઓગણીસ  વચ્ચે ના હોય તો તેને પણ છૂટો કરો,જો સો નો અંક શુન્ય ન હોય તો તેને પણ છૂટો કરો અને પછી ઇંગલિશ માં  ફેરવો."
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/green1"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" \n EXAMPLE 1:- \n\n   1011 :- 1000          +      11  \n   ૧ooo :- ૧ooo           +     ૧૧ \n           (one thousand)   (eleven) \n 1011= (One Thousand eleven)  \n                     =(એક હજાર અગિયાર)"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/green1"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  \nEXAMPLE 2:- \n\n   13059 :- 13000          +  50    +   9  \n  ૧૩o૫૯:-   ૧૩ooo           + ૫o    +   ૯ \n    (Thirteen thousand)  (fifty) (nine) \n13059=(Thirteen thousand fifty nine)\n                = (તેર હજાર ઓગણસાઈંઠ)"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/green1"
+
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  ➦ એવી જ રીતે અનુક્રમે મોટી સંખ્યાઓ માટે  જાતે પ્રયત્ન કરો."
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@color/yellow1"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+
+        ></TextView>
+   <Button
+       android:layout_marginTop="10dp"
+       android:id="@+id/getanswer"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="START QUIZ 1(પ્રશ્નોતરી પ્રારંભ કરો)"
+
+       />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/getanswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START QUIZ 2(પ્રશ્નોતરી પ્રારંભ કરો)"
+
+        />
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/present"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/play"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+
+    >
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="A"
+        android:textSize="150dp"></TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:src="@drawable/play"
+        android:textAlignment="center">
+    </ImageView>
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="A FOR APPLE"
+        android:textSize="35dp"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/a2"
+
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/abcd_apple"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PREVIOUS(પહેલાનું)"
+            android:background="@color/green"
+            android:onClick="change1"
+
+            />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT(આગળ)"
+        android:background="@color/yellow1"
+        android:onClick="change"
+        android:layout_weight="1"
+
+        />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+</RelativeLayout>
