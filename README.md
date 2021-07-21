@@ -4,7 +4,7 @@ In this app user can learn abcd, tenses and word with amazing layout.
 
 ![](ENG_to_GUJ/%20app.mp4)
 
-<img src="ENG_to_GUJ/1%20(1).png" width="80">
+<img src="ENG_to_GUJ/1%20(1).png" width="150">
 ![](ENG_to_GUJ/1%20(1).png)                                                                                                                     
                                                                                                                                                 
                                                                                                                                                 
