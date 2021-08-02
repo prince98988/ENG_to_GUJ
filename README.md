@@ -6,16 +6,38 @@ Component: ListView, Activity, Intents, XML, Custom Adapter, SQLite <br>
 
 Functionality: Abcd.. , Numbers, Words, Tenses with audio and quiz is also available for check skill. <br>
 
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 
 ![](ENG_to_GUJ/%20app.mp4)
+  
+  <div class="row">
+  <div class="column">
 
 <img src="ENG_to_GUJ/1%20(1).png" width="200"> 
-
+    </div>
+ <div class="column">
 <img src="ENG_to_GUJ/1%20(2).png" width="200"> 
-
+    </div>
+   <div class="column">
 <img src="ENG_to_GUJ/1%20(3).png" width="200"> 
-
+ </div> </div>
 <img src="ENG_to_GUJ/1%20(4).png" width="200"> 
 
 <img src="ENG_to_GUJ/1%20(5).png" width="200"> 
