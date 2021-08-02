@@ -1,8 +1,10 @@
 # ENG_to_GUJ
-Language:  JAVA, SQL
-Platform : Android studio
-Component: ListView, Activity, Intents, XML, Custom Adapter, SQLite
-Functionality: Abcd.. , Numbers, Words, Tenses with audio and quiz is also available for check skill.
+Language:  JAVA, SQL <Br>
+Platform : Android studio <br>
+
+Component: ListView, Activity, Intents, XML, Custom Adapter, SQLite <br>
+
+Functionality: Abcd.. , Numbers, Words, Tenses with audio and quiz is also available for check skill. <br>
 
 
 
