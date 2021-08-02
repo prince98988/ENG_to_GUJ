@@ -1,5 +1,9 @@
 # ENG_to_GUJ
-In this app user can learn abcd, tenses and word with amazing layout.
+Language:  JAVA, SQL
+Platform : Android studio
+Component: ListView, Activity, Intents, XML, Custom Adapter, SQLite
+Functionality: Abcd.. , Numbers, Words, Tenses with audio and quiz is also available for check skill.
+
 
 
 ![](ENG_to_GUJ/%20app.mp4)
